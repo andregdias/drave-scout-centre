@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "35758604634",
+    "firebase_url": "https://drave-scout-centre.firebaseio.com",
+    "project_id": "drave-scout-centre",
+    "storage_bucket": "drave-scout-centre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35758604634:android:651629084e3ebdb5",
+        "android_client_info": {
+          "package_name": "pt.escutismo.dravescoutcentre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35758604634-1pgktv10rhrj9hfrvj46i6qm8m04v9a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFz4LAqrq1-UWG-Wa-Qo8n6snmKNAZR8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35758604634:android:f8092121cd476ffb",
+        "android_client_info": {
+          "package_name": "pt.escutismo.dravescoutcentre.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35758604634-1pgktv10rhrj9hfrvj46i6qm8m04v9a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFz4LAqrq1-UWG-Wa-Qo8n6snmKNAZR8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

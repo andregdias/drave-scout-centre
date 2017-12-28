@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="fix_cardview_padding">0dp</dimen>
+
+  <dimen name="card_view_elevation_4dp">4dp</dimen>
+  <dimen name="card_view_elevation_10dp">10dp</dimen>
+  <dimen name="card_view_elevation_20dp">20dp</dimen>
+</resources>

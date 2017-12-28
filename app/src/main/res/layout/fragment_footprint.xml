@@ -1,0 +1,398 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/background"
+  android:orientation="vertical"
+  android:weightSum="2"
+  tools:context=".fragment.ProgramsFragment">
+
+  <ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.8">
+
+    <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp">
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Número de elementos" />
+
+        <EditText
+          android:id="@+id/p1"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="number" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Número de dias da atividade" />
+
+        <EditText
+          android:id="@+id/p2"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="number" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Distância até à Drave (km)" />
+
+        <EditText
+          android:id="@+id/p3"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Número de Viaturas (Classe 1)" />
+
+        <EditText
+          android:id="@+id/p4"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="number" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Número de Viaturas (Classe 2)" />
+
+        <EditText
+          android:id="@+id/p5"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="number" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Número de Viaturas (Camionetas)" />
+
+        <EditText
+          android:id="@+id/p6"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="number" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Transportes Públicos" />
+
+        <Switch
+          android:id="@+id/p7"
+          android:layout_height="40dp" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Quantidade de Gás (kg)" />
+
+        <EditText
+          android:id="@+id/p8"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Carne de Vaca (kg)" />
+
+        <EditText
+          android:id="@+id/p9"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Carne de Porco(kg)" />
+
+        <EditText
+          android:id="@+id/p10"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Carne de Aves (kg)" />
+
+        <EditText
+          android:id="@+id/p11"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Salsichas (kg)" />
+
+        <EditText
+          android:id="@+id/p12"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Fumados e Enchidos (kg)" />
+
+        <EditText
+          android:id="@+id/p13"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Manteiga (kg)" />
+
+        <EditText
+          android:id="@+id/p14"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Margarina (kg)" />
+
+        <EditText
+          android:id="@+id/p15"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Queijo (kg)" />
+
+        <EditText
+          android:id="@+id/p16"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Ovos (kg)" />
+
+        <EditText
+          android:id="@+id/p17"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Leite (kg)" />
+
+        <EditText
+          android:id="@+id/p18"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Fruta (kg)" />
+
+        <EditText
+          android:id="@+id/p19"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow>
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="9"
+          android:text="Pão (kg)" />
+
+        <EditText
+          android:id="@+id/p20"
+          android:layout_width="30dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal" />
+      </TableRow>
+
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+
+      </TableRow>
+    </TableLayout>
+  </ScrollView>
+
+  <LinearLayout
+    android:id="@+id/totalCO2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/scrollView"
+    android:layout_weight="0.1"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Total (kg CO2): "
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/total"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:textSize="20dp"
+      android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/totalCO2"
+    android:layout_weight="0.1"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Árvores necessárias: "
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/totalArvores"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:textSize="20dp"
+      android:textStyle="bold" />
+  </LinearLayout>
+
+</LinearLayout>

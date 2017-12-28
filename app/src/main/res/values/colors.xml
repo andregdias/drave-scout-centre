@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@color/background</color>
+  <color name="colorPrimaryDark">#4c301b</color>
+  <color name="colorAccent">#4c301b</color>
+
+  <color name="colorSplashBackground">@color/background</color>
+
+  <color name="white">#FFFFFF</color>
+  <color name="whiteOpacity">#80FFFFFF</color>
+  <color name="black">#000000</color>
+  <color name="blackOpacity">#20000000</color>
+  <color name="light_gray">#E5E5E5</color>
+  <color name="gray">#C2C2C2</color>
+  <color name="dark_gray">#454545</color>
+  <color name="armadillo">#4A4A4A</color>
+
+  <color name="background">#f2ece0</color>
+
+  <color name="tikoBlue">#005DA6</color>
+  <color name="tikoBlueDark">#004881</color>
+  <color name="tikoRed">#EF4036</color>
+
+  <color name="limaGreen">#6EC320</color>
+  <color name="successGreen">#2ECC71</color>
+  <color name="errorRed">#E74C3C</color>
+
+  <color name="sv_blue">#688fdb</color>
+
+  <color name="lock_button_color">@color/white</color>
+
+  <color name="arapawa">#274E64</color>
+  <color name="alabaster_background">#F9FBFB</color>
+
+  <color name="orange">#f0ad4e</color>
+</resources>

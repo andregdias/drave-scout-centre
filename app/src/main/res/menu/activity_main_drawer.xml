@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_programs"
+      android:title="Programas" />
+
+    <item
+      android:id="@+id/nav_aboutDrave"
+      android:title="Sobre a Drave" />
+
+    <item
+      android:id="@+id/nav_aboutScoutCentre"
+      android:title="Sobre o Scout Centre" />
+
+    <item
+      android:id="@+id/nav_draveCard"
+      android:title="Drave Card" />
+
+    <item
+      android:id="@+id/nav_rules"
+      android:title="Código de Conduta" />
+
+    <item
+      android:id="@+id/nav_socialNetworks"
+      android:title="Redes Sociais" />
+
+    <item
+      android:id="@+id/nav_notifications"
+      android:title="Notificações" />
+  </group>
+
+</menu>
