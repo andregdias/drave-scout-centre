@@ -57,7 +57,6 @@ dependencies {
   }
 
   // THIRD-PARTY
-  implementation 'com.github.rey5137:material:1.2.4'
   implementation 'com.miguelcatalan:materialsearchview:1.4.0'
   implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
   implementation 'com.github.javiersantos:AppUpdater:2.6.1'
