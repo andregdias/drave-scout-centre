@@ -52,7 +52,7 @@ public class MainActivity extends DefaultActivity {
 
     activityTitles = getResources().getStringArray(R.array.nav_item_activity_titles);
 
-    toolbar = (Toolbar) findViewById(R.id.toolbar);
+    toolbar = findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
 
     mHandler = new Handler();
@@ -65,8 +65,8 @@ public class MainActivity extends DefaultActivity {
         .setButtonDismiss("");
     updater.start();
 
-    drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-    navigationView = (NavigationView) findViewById(R.id.nav_view);
+    drawer = findViewById(R.id.drawer_layout);
+    navigationView = findViewById(R.id.nav_view);
 
     setUpNavigationView();
 

@@ -20,7 +20,7 @@ public class ProgramsFragment extends android.support.v4.app.Fragment {
     View fragView = inflater.inflate(R.layout.fragment_programs, container, false);
     setHasOptionsMenu(true);
 
-    Button b1 = (Button) fragView.findViewById(R.id.button1);
+    Button b1 = fragView.findViewById(R.id.button1);
     b1.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
@@ -32,7 +32,7 @@ public class ProgramsFragment extends android.support.v4.app.Fragment {
         fragmentTransaction.commitAllowingStateLoss();
       }
     });
-    Button b2 = (Button) fragView.findViewById(R.id.button2);
+    Button b2 = fragView.findViewById(R.id.button2);
     b2.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
@@ -45,28 +45,28 @@ public class ProgramsFragment extends android.support.v4.app.Fragment {
         }
       }
     });
-    Button b3 = (Button) fragView.findViewById(R.id.button3);
+    Button b3 = fragView.findViewById(R.id.button3);
     b3.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
         Toast.makeText(getContext(), "Em Breve", Toast.LENGTH_SHORT).show();
       }
     });
-    Button b4 = (Button) fragView.findViewById(R.id.button4);
+    Button b4 = fragView.findViewById(R.id.button4);
     b4.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
         Toast.makeText(getContext(), "Em Breve", Toast.LENGTH_SHORT).show();
       }
     });
-    Button b5 = (Button) fragView.findViewById(R.id.button5);
+    Button b5 = fragView.findViewById(R.id.button5);
     b5.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
         Toast.makeText(getContext(), "Em Breve", Toast.LENGTH_SHORT).show();
       }
     });
-    Button b6 = (Button) fragView.findViewById(R.id.button6);
+    Button b6 = fragView.findViewById(R.id.button6);
     b6.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {

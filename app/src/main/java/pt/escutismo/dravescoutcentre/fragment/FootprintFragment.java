@@ -35,29 +35,29 @@ public class FootprintFragment extends android.support.v4.app.Fragment {
       ((MainActivity) getActivity()).getSupportActionBar().setTitle(s);
     }
 
-    p1 = (EditText) fragView.findViewById(R.id.p1);
-    p2 = (EditText) fragView.findViewById(R.id.p2);
-    p3 = (EditText) fragView.findViewById(R.id.p3);
-    p4 = (EditText) fragView.findViewById(R.id.p4);
-    p5 = (EditText) fragView.findViewById(R.id.p5);
-    p6 = (EditText) fragView.findViewById(R.id.p6);
-    p7 = (Switch) fragView.findViewById(R.id.p7);
-    p8 = (EditText) fragView.findViewById(R.id.p8);
-    p9 = (EditText) fragView.findViewById(R.id.p9);
-    p10 = (EditText) fragView.findViewById(R.id.p10);
-    p11 = (EditText) fragView.findViewById(R.id.p11);
-    p12 = (EditText) fragView.findViewById(R.id.p12);
-    p13 = (EditText) fragView.findViewById(R.id.p13);
-    p14 = (EditText) fragView.findViewById(R.id.p14);
-    p15 = (EditText) fragView.findViewById(R.id.p15);
-    p16 = (EditText) fragView.findViewById(R.id.p16);
-    p17 = (EditText) fragView.findViewById(R.id.p17);
-    p18 = (EditText) fragView.findViewById(R.id.p18);
-    p19 = (EditText) fragView.findViewById(R.id.p19);
-    p20 = (EditText) fragView.findViewById(R.id.p20);
+    p1 = fragView.findViewById(R.id.p1);
+    p2 = fragView.findViewById(R.id.p2);
+    p3 = fragView.findViewById(R.id.p3);
+    p4 = fragView.findViewById(R.id.p4);
+    p5 = fragView.findViewById(R.id.p5);
+    p6 = fragView.findViewById(R.id.p6);
+    p7 = fragView.findViewById(R.id.p7);
+    p8 = fragView.findViewById(R.id.p8);
+    p9 = fragView.findViewById(R.id.p9);
+    p10 = fragView.findViewById(R.id.p10);
+    p11 = fragView.findViewById(R.id.p11);
+    p12 = fragView.findViewById(R.id.p12);
+    p13 = fragView.findViewById(R.id.p13);
+    p14 = fragView.findViewById(R.id.p14);
+    p15 = fragView.findViewById(R.id.p15);
+    p16 = fragView.findViewById(R.id.p16);
+    p17 = fragView.findViewById(R.id.p17);
+    p18 = fragView.findViewById(R.id.p18);
+    p19 = fragView.findViewById(R.id.p19);
+    p20 = fragView.findViewById(R.id.p20);
 
-    total = (TextView) fragView.findViewById(R.id.total);
-    totalArvores = (TextView) fragView.findViewById(R.id.totalArvores);
+    total = fragView.findViewById(R.id.total);
+    totalArvores = fragView.findViewById(R.id.totalArvores);
 
     TextWatcher textWatcher = new TextWatcher() {
       @Override
