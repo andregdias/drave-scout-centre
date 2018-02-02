@@ -19,7 +19,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Toast;
 
 import com.github.javiersantos.appupdater.AppUpdater;
 import com.github.javiersantos.appupdater.enums.UpdateFrom;
@@ -28,7 +27,14 @@ import java.util.List;
 
 import pt.escutismo.dravescoutcentre.R;
 import pt.escutismo.dravescoutcentre.activity.base.DefaultActivity;
+import pt.escutismo.dravescoutcentre.fragment.AboutDraveFragment;
+import pt.escutismo.dravescoutcentre.fragment.AboutScoutCentreFragment;
+import pt.escutismo.dravescoutcentre.fragment.BadgeFragment;
+import pt.escutismo.dravescoutcentre.fragment.ContactsFragment;
+import pt.escutismo.dravescoutcentre.fragment.HomeFragment;
 import pt.escutismo.dravescoutcentre.fragment.ProgramsFragment;
+import pt.escutismo.dravescoutcentre.fragment.RulesFragment;
+import pt.escutismo.dravescoutcentre.fragment.TracksFragment;
 import pt.escutismo.dravescoutcentre.utils.IGlobalConstants;
 import pt.escutismo.dravescoutcentre.utils.TypefaceSpan;
 
@@ -109,22 +115,25 @@ public class MainActivity extends DefaultActivity {
 
   private Fragment getHomeFragment() {
     switch (navItemIndex) {
+      case IGlobalConstants.HOME_MENU_INDEX:
+        return new HomeFragment();
       case IGlobalConstants.PROGRAMS_MENU_INDEX:
         return new ProgramsFragment();
+      case IGlobalConstants.TRACKS_MENU_INDEX:
+        return new TracksFragment();
+      case IGlobalConstants.BADGE_MENU_INDEX:
+        return new BadgeFragment();
       case IGlobalConstants.ABOUTDRAVE_MENU_INDEX:
-        return new ProgramsFragment();
+        return new AboutDraveFragment();
       case IGlobalConstants.ABOUTSCOUTCENTRE_MENU_INDEX:
-        return new ProgramsFragment();
-      case IGlobalConstants.DRAVECARD_MENU_INDEX:
-        return new ProgramsFragment();
+        return new AboutScoutCentreFragment();
       case IGlobalConstants.RULES_MENU_INDEX:
-        return new ProgramsFragment();
-      case IGlobalConstants.SOCIALNETWORKS_MENU_INDEX:
-        return new ProgramsFragment();
-      case IGlobalConstants.NOTIFICATIONS_MENU_INDEX:
-        return new ProgramsFragment();
+        return new RulesFragment();
+      case IGlobalConstants.CONTACTS_MENU_INDEX:
+        return new ContactsFragment();
+      default:
+        return new HomeFragment();
     }
-    return new ProgramsFragment();
   }
 
   private void setToolbarTitle() {
@@ -162,11 +171,23 @@ public class MainActivity extends DefaultActivity {
       public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         switch (menuItem.getItemId()) {
+          case R.id.nav_home:
+            navItemIndex = IGlobalConstants.HOME_MENU_INDEX;
+            CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
+            break;
           case R.id.nav_programs:
             navItemIndex = IGlobalConstants.PROGRAMS_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
-          /*case R.id.nav_aboutDrave:
+          case R.id.nav_tracks:
+            navItemIndex = IGlobalConstants.TRACKS_MENU_INDEX;
+            CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
+            break;
+          case R.id.nav_badge:
+            navItemIndex = IGlobalConstants.BADGE_MENU_INDEX;
+            CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
+            break;
+          case R.id.nav_aboutDrave:
             navItemIndex = IGlobalConstants.ABOUTDRAVE_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
@@ -174,25 +195,16 @@ public class MainActivity extends DefaultActivity {
             navItemIndex = IGlobalConstants.ABOUTSCOUTCENTRE_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
-          case R.id.nav_draveCard:
-            navItemIndex = IGlobalConstants.DRAVECARD_MENU_INDEX;
-            CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
-            break;
           case R.id.nav_rules:
             navItemIndex = IGlobalConstants.RULES_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
-          case R.id.nav_socialNetworks:
-            navItemIndex = IGlobalConstants.SOCIALNETWORKS_MENU_INDEX;
+          case R.id.nav_contacts:
+            navItemIndex = IGlobalConstants.CONTACTS_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
-          case R.id.nav_notifications:
-            navItemIndex = IGlobalConstants.NOTIFICATIONS_MENU_INDEX;
-            CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
-            break;*/
           default:
-            Toast.makeText(context, "Em Breve", Toast.LENGTH_SHORT).show();
-            navItemIndex = IGlobalConstants.PROGRAMS_MENU_INDEX;
+            navItemIndex = IGlobalConstants.HOME_MENU_INDEX;
             CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
             break;
         }
@@ -226,6 +238,14 @@ public class MainActivity extends DefaultActivity {
     if (drawer.isDrawerOpen(GravityCompat.START)) {
       drawer.closeDrawers();
       return;
+    } else {
+      if (navItemIndex != IGlobalConstants.HOME_MENU_INDEX) {
+        navItemIndex = IGlobalConstants.HOME_MENU_INDEX;
+        CURRENT_TAG = IGlobalConstants.DRAWER_ITEMS.get(navItemIndex);
+        navigationView.getMenu().getItem(navItemIndex).setChecked(true);
+        loadHomeFragment();
+        return;
+      }
     }
     super.onBackPressed();
   }

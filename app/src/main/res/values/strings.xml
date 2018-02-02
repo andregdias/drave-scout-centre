@@ -5,23 +5,25 @@
   <string name="closeDrawer" translatable="false">close_drawer</string>
 
   <!-- Navigation Drawer menu labels -->
-  <string name="nav_programs">Drave Scout Centre</string>
+  <string name="empty"></string>
+  <string name="nav_home">Início</string>
+  <string name="nav_programs">Programas</string>
+  <string name="nav_tracks">Trilhos</string>
+  <string name="nav_badge">Insígnia</string>
   <string name="nav_aboutDrave">Sobre a Drave</string>
   <string name="nav_aboutScoutCentre">Sobre o Scout Centre</string>
-  <string name="nav_draveCard">Drave Card</string>
   <string name="nav_rules">Código de Conduta</string>
-  <string name="nav_socialNetworks">Redes Sociais</string>
-  <string name="nav_notifications">Notificações</string>
-  <string name="developedBy">Developed by</string>
+  <string name="nav_contacts">Contactos</string>
 
   <!-- Toolbar titles when navigation menu item is selected -->
   <string-array name="nav_item_activity_titles" translatable="false">
+    <item>@string/empty</item>
     <item>@string/nav_programs</item>
+    <item>@string/nav_tracks</item>
+    <item>@string/nav_badge</item>
     <item>@string/nav_aboutDrave</item>
     <item>@string/nav_aboutScoutCentre</item>
-    <item>@string/nav_draveCard</item>
     <item>@string/nav_rules</item>
-    <item>@string/nav_socialNetworks</item>
-    <item>@string/nav_notifications</item>
+    <item>@string/nav_contacts</item>
   </string-array>
 </resources>

@@ -3,32 +3,37 @@
 
   <group android:checkableBehavior="single">
     <item
+      android:id="@+id/nav_home"
+      android:title="@string/nav_home" />
+
+    <item
       android:id="@+id/nav_programs"
-      android:title="Programas" />
+      android:title="@string/nav_programs" />
+
+    <item
+      android:id="@+id/nav_tracks"
+      android:title="@string/nav_tracks" />
+
+    <item
+      android:id="@+id/nav_badge"
+      android:title="@string/nav_badge" />
 
     <item
       android:id="@+id/nav_aboutDrave"
-      android:title="Sobre a Drave" />
+      android:title="@string/nav_aboutDrave" />
 
     <item
       android:id="@+id/nav_aboutScoutCentre"
-      android:title="Sobre o Scout Centre" />
-
-    <item
-      android:id="@+id/nav_draveCard"
-      android:title="Drave Card" />
+      android:title="@string/nav_aboutScoutCentre" />
 
     <item
       android:id="@+id/nav_rules"
-      android:title="Código de Conduta" />
+      android:title="@string/nav_rules" />
 
     <item
-      android:id="@+id/nav_socialNetworks"
-      android:title="Redes Sociais" />
+      android:id="@+id/nav_contacts"
+      android:title="@string/nav_contacts" />
 
-    <item
-      android:id="@+id/nav_notifications"
-      android:title="Notificações" />
   </group>
 
 </menu>
