@@ -40,9 +40,9 @@
     <android.support.v7.widget.AppCompatTextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:text="@string/badgeHeader3"
       android:textSize="16sp"
-      android:textStyle="bold"
-      android:text="@string/badgeHeader3" />
+      android:textStyle="bold" />
 
     <android.support.v7.widget.AppCompatTextView
       android:layout_width="match_parent"

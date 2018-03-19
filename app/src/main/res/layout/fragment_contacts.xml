@@ -28,9 +28,9 @@
       android:layout_height="wrap_content"
       android:layout_marginBottom="10dp"
       android:layout_marginTop="10dp"
+      android:adjustViewBounds="true"
       android:paddingLeft="150dp"
       android:paddingRight="150dp"
-      android:adjustViewBounds="true"
       android:scaleType="fitCenter"
       android:src="@drawable/contacts_1" />
 
