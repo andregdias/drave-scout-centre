@@ -6,11 +6,23 @@
   android:orientation="vertical"
   tools:context=".fragment.HomeFragment">
 
-  <ImageView
-    android:id="@+id/header"
+  <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/header" />
+    android:layout_height="wrap_content">
+
+    <ImageView
+      android:id="@+id/header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/header" />
+
+    <ImageView
+      android:id="@+id/draveLogo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:background="@drawable/drave" />
+  </RelativeLayout>
 
   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
