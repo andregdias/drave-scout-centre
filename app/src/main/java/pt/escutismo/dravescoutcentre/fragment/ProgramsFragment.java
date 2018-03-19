@@ -3,6 +3,7 @@ package pt.escutismo.dravescoutcentre.fragment;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,7 +17,7 @@ import pt.escutismo.dravescoutcentre.R;
 public class ProgramsFragment extends android.support.v4.app.Fragment {
 
   @Override
-  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+  public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     View fragView = inflater.inflate(R.layout.fragment_programs, container, false);
     setHasOptionsMenu(true);
 

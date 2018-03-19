@@ -15,6 +15,129 @@
   <string name="nav_rules">Código de Conduta</string>
   <string name="nav_contacts">Contactos</string>
 
+  <string name="aboutDraveTitle">Sobre a Aldeia</string>
+  <string name="aboutDraveText1">Drave é uma aldeia desabitada situada a 600m, numa cova entre as Serra da Freita, Serra de São Macário e Serra da Arada, integrada no Geoparque de Arouca, e cuja primeira referência data do reinado de D. Dinis. É uma aldeia típica em que as casas são feitas de pedra, denominada pedra lousinha, sendo a sua cobertura de xisto, e onde se cruzam 3 rios.</string>
+  <string name="aboutDraveText2">A aldeia é muito isolada e sem traços de modernidade: não é acessível de carro, e a aldeia mais próxima, Regoufe, fica a 4 quilómetros. Não tem electricidade, água canalizada, saneamento, gás, correio, telefone e a rede de telemóvel é escassa.\nA família Martins, das quais há registos na Drave desde 1700, foi uma das famílias mais numerosas da aldeia, e também a última a deixá-la, no ano 2000.</string>
+  <string name="aboutDraveText3">Reúnem-se ainda, anualmente na Festa de Nossa Senhora da Saúde, que é no dia 15 de Agosto e que se continua a realizar todos os anos. Em 2003 o Corpo Nacional de Escutas abriu na Drave a sua Base Nacional da IV, uma centro escutista para caminheiros e companheiros depois de em 1992 ter realizado a atividade \"Rumos da Consciência\", em 1993 os \"Rumos do Homem Novo\" e em 2001 o \"Rover 2001\", atividade na qual se começou a reconstrução da aldeia. Com forte componente ambiental e espiritual, este centro é já uma referência mundial, pertencendo às redes SCENES e GOOSE.</string>
+
+  <string name="aboutScoutCentreTitle">Sobre o Centro Escutista</string>
+  <string name="aboutScoutCentreText1">O DRAVE SCOUT CENTRE é a Base Nacional da IV: um centro escutista diferente, não só pelos objetivos e por se destinar apenas a caminheiros e companheiros, mas também pelas condições logísticas. O isolamento e a necessária convivência com os outros proprietários implicam uma grande responsabilidade individual de quem cá vem realizar atividades.\nA Drave, como Base Nacional, significa um local de encontro dos caminheiros, de preparação de atividades, de valorização pessoal, de troca de ideias e opiniões, de formação, de reflexão, etc. Aqui encontramos um local privilegiado para criar um conjunto de condições para que cada Caminheiro desenvolva as suas capacidades, se encontre consigo mesmo e defina o seu projeto de vida. Não se trata apenas de reconstruir umas casas, ou de dotar a Drave de condições de habitabilidade, mas antes cada um viver a magia de se redescobrir a si próprio, de estar mais próximo do próximo, mais próximo de Deus.</string>
+  <string name="aboutScoutCentreText2">O DRAVE SCOUT CENTRE não é a Drave, é apenas parte da Drave - é um conjunto de casas e terrenos dos quais o CNE é proprietário.\n\nCasas do DRAVE SCOUT CENTRE:\n• Casinha\n• Casa do Silêncio\n• Casa do Fogo\n• Casa do Staff\n• Oficina\n• Currais do Colado e Fundeiro\n\nTerrenos do DRAVE SCOUT CENTRE:\n• Leira do Eucalipto\n• Chão do Ribeiro\n• Horta das Cebolas\n• Campo das Fonteirinhas\n• Chousinha\n• Quelhas de Cima</string>
+  <string name="aboutScoutCentreText3">O DRAVE SCOUT CENTRE é gerido por uma Equipa de Gestão e ainda semanalmente por uma equipa de Staff voluntário. Os elementos do Staff são os \"guardiães\" da Drave. Como funções têm a receção aos Clãs que se deslocam à Drave para realizarem as suas atividades, a comunicação das informações necessárias e do código de conduta, a indicação do serviço a realizar e o apoio aos Clãs naquilo que eles necessitarem. Para além disso são responsáveis pela manutenção das várias infraestruturas e material, e pelo apoio nos vários EPICs.</string>
+
+  <string name="rulesTitle">Código de Conduta</string>
+  <string name="rulesHeader1">Direitos</string>
+  <string name="rulesText1">
+\n• Usufruir de um Local de culto e reflexão espiritual e religiosa, onde os escuteiros possam em retiro viver a sua Fé;
+\n• Sentir-se corpo de um lugar onde se desfruta uma beleza natural incomparável; 
+\n• Usufruir de um local de encontro individual; 
+\n• Ser construtor de um Projecto Nacional; 
+\n• Descobrir a vocação pessoal; 
+\n• Crescer em espírito, em fé e em responsabilidade; 
+\n• Viver a mística e simbologia da IV secção; 
+    \n• Aplicar o Sistema de Progresso.</string>
+  <string name="rulesHeader2">\nDeveres</string>
+  <string name="rulesText3">
+\nSocial
+\n• Respeita a população vizinha; 
+\n• Não mexas em nada sem autorização prévia, lembra-te por vezes a nossa boa vontade provoca muitas asneiras; 
+\n• A Drave já tem uma enorme assinatura cultural, não deixes a tua marca pois a identidade desta aldeia é traçada pela sua simplicidade; não queiras criar graffitis rurais; 
+\n• Usufrui apenas do nosso património que se encontra devidamente assinalado no site da BNIV; 
+\n• Não destruas, lembra-te que muito do trabalho nesta aldeia foi efectuado com a ajuda de muitos, escuteiros mas não só; 
+\n• Não estamos sozinhos em Drave, a aldeia não está abandonada mas sim desabitada. Importa respeitar os nossos vizinhos, tentando ter sempre uma atitude cordial com os mesmos; 
+\n• Evita fazer ruídos desnecessários, lembra-te que para alem de prejudicares a fauna existente, poderás estar a lesar a introspecção pessoal de algum Caminheiro, assim como a população local; 
+\n\nTerreno
+\n• Não inventes locais de acampamentos, eles já existem e estão disponíveis no site da BNIV; 
+\n• Toma em atenção o como e onde instalas as latrinas, devem estar afastadas dos cursos de água. Tem em conta o volume de utilização da latrina (número de pessoas e tempo) para evitar sobrecargas do sistema ecológico e impacto visual; 
+\n• Sempre que, por necessidade, moveres objectos, recoloca-os nos locais exactos novamente. Não te esqueças de cobrir de vegetação aquilo que foi destapado; 
+\n• Restitui ao local o aspecto que tinha antes da tua chegada, dentro da medida do possível; 
+\n• Evita saíres dos caminhos já existentes; assim evitas a erosão e diminuis o pisoteio, matando inúmeras formas de vida que os teus olhos não conseguem observar e que são extremamente importantes no vários ciclos naturais da terra. Para além disso diminuis o risco de estares a entrar em propriedade alheia onde a tua presença pode não ser bem-vinda. 
+\n\nResíduos
+\n• Não existem locais para depositares os teus resíduos, portanto é um dever teu deixa-lo apenas numa povoação onde exista recolha de resíduos; 
+\n• Se fumares, não atires os filtros dos cigarros para o chão, lembra-te que estes são responsáveis por um elevado número de incêndios, assim como são externamente desagradáveis quando observados num espaço natural. Podes remediar esta situação criando o teu próprio cinzeiro ecológico. Nada mais fácil que pegar numa caixa dos rolos fotográficos, que é extremamente pequena e pode ser facilmente colocado num dos bolsos, e colocares lá os filtros dos teus cigarros. Quando esta estiver cheia, descarrega-a no local comum de deposição dos resíduos. 
+\n• Tenta realizar uma gestão adequada do tipo de embalagens que acondicionam os alimentos, pois quantos mais levar até ao fundo do vale mais peso terás que transportar para cima; 
+\n• Não coloques os entulhos resultantes do trabalho de reconstrução nos espaços comuns e procura arrumá-los, não os deixando à vista;
+\n\nÁgua
+\n• A água é um elemento escasso que deves racionalizar, especialmente, no verão. A jusante existem populações que dependem directamente da mesma água que atravessa a aldeia! Procura afastar-te do curso e recorre a elementos biodegradáveis quando efectuas a higiene ou enquanto cozinhas; 
+\n\nFogo
+\n• As fogueiras, apesar de serem elemento importante na vida de campo do Caminheiro, devem ser evitadas, sobretudo no verão e em locais que não os devidamente indicados;
+\n\nSegurança
+\nA Drave é um local de refúgio longe de tudo, mas perto de nós mesmos.
+Deste modo a questão da nossa segurança pessoal, daqueles que ali nos acompanham e dos bens que ali nos rodeiam deverá ser uma preocupação permanente. Muitas das actividades que realizamos comportam riscos e antes de as implementar deveremos colocar em cima da mesa da planificação a questão da segurança. 
+Drave está longe de qualquer tipo de assistência imediata. Ali não há telefone nem rede de telemóvel (ainda bem),não é qualquer viatura que vai até à zona de estacionamento, a deslocação a pé dali até à Drave demorará cerca de 20 minutos. O transporte de feridos para fora da Drave não é uma tarefa fácil ou que se recomende a doentes.... 
+Portanto na Drave estamos por nossa conta, acompanhados dos riscos e das medidas de precaução que implementarmos nas planificações das nossas actividades. Isto deverá ser tomado em conta para tudo e em especial nas acções de reconstrução que se pretenderem realizar.
+</string>
+
+  <string name="badgeTitle">Insígnia e Drave Card</string>
+  <string name="badgeText1">Para a conseguires obter a Insígnia da Drave terás de ter e completar o DRAVE CARD - uma espécie de passaporte onde irás registar o teu percurso na Drave. O DRAVE CARD tem 20 espaços para preencher com carimbos, que conseguirás ao realizar atividades à tua escolha, em 4 grandes áreas: espiritual, ambiental, cultural e escutista.</string>
+  <string name="badgeText2">Como?
+\n1 - adquirir o DRAVE CARD pelo preço de 2,50€.
+\n2 - nesse momento é te dado logo uma parte da insígnia, o Sol, que deverás aplicar no teu uniforme (manga direita).
+\n3 - sempre que realizares uma das atividades, pede ao STAFF que te carimbe o DRAVE CARD. O Chefe de Clã desempenhará um papel fulcral no desenrolar destas atividades, indicando quais os elementos merecedores dos carimbos após o cumprimento de todas as tarefas implícitas em cada atividade.
+\n4 - quando tiveres todo o cartão carimbado, entrega-o ao STAFF e a outra parte da insígnia é-te oferecida como um sinal de reconhecimento do teu empenho neste percurso.
+\n\nPara quem?
+\nO DRAVE CARD pode ser adquirido por qualquer membro do Clã, mesmo sendo ainda noviço ou aspirante e não se destina aos dirigentes.
+\nA atribuição da Insígnia no final do percurso do DRAVE CARD apenas pode ser feita a Caminheiros já investidos.
+\nO DRAVE CARD é individual e intransmissível.
+\n\nOnde?
+\nA aquisição do DRAVE CARD, a atribuição de carimbos e a entrega das Insígnia ocorrerão sempre na Drave, assim como a maioria das actividades.
+\nNo entanto existem algumas que poderão ser realizadas fora da área da aldeia.
+\n\nDuração?
+\nO percurso é individual. Por isso, irá demorar o tempo que quiseres, embora o devas completar enquanto caminheiro.</string>
+  <string name="badgeHeader3">\nÁreas</string>
+  <string name="badgeText3">\nEspiritual:
+\n• 4 - Participar num EPIC: EPHATA
+\n• 2 - Participação no momento de Oração promovido pelo staff
+\n• 3 - Realizar um Programa Pedagógico: Programa Sol
+\n• 3 - Promover e dinamizar um momento de Oração no Clã, durante uma atividade na Drave
+\n\nAmbiental:
+\n• 3 - Realizar o Programa Fauna e Flora
+\n• 2 - Realizar o Programa Pegada Ecológica
+\n• 3 - Realizar o Projeto Rios
+\n• 3 - Participação em tarefas de manutenção / marcação de trilhos pedestres
+\n\nCultural:
+\n• 2 - Participar num EPIC: Dravim
+\n• 3 - Realizar o Jogo Goose
+\n• 3 - Trabalho com as comunidades locais
+\n• 1 - Ter ums fotografia selecionada no Instagram oficial do Drave Scout Centre
+\n\nEscutista:
+\n• 5 - Participar num EPIC: Sol a Sol
+\n• 2 - Integrar uma atividade do teu Clã na Drave
+\n• 2 - Elaborar a avaliação de uma atividade de Clã na Drave (online)
+\n• 4 - Realizar um Programa Pedagógico – Programa Cume
+\n• 2 - Participar na atividade de (re) construção / manutenção</string>
+
+  <string name="contactsTitle">Informações</string>
+  <string name="contactsText1">HORÁRIOS:
+\nVisitas Guiadas: sábados de manhã, entre as 9h e as 12h
+\nCelebração da Palavra: sábados às 19 na Casa do Silêncio
+\nLoja de lembranças: domingos das 10h às 12h
+\n\n(para outros horários verifica a disponibilidade com o staff)
+\n\nEMERGÊNCIAS:
+\nStaff: 96 000 00 00
+\nEmergências: 112
+\nCentro de Saúde de S. Pedro do Sul: 232 723 027
+\nCentro de Saúde de Arouca: 256 940 330
+\nBombeiros de S. Pedro do Sul: 232 720 110
+\nBombeiros Arouca: 256 944 122
+\n\nMARCAÇÃO:
+\nUsa o formulário no nosso site para marcares a tua atividade:
+\nwww.dravescoutcentre.com
+\n\nCOORDENADAS GPS:
+\nLatitude: N 40 51.668 | 40º 51' 40'' N
+\nLongitude: W 8 07.041 | 8º 07' 02'' W
+\n\nCARTAS TOPOGRÁFICAS:
+\nDrave: nº 156 - Reriz (Castro Daire)
+\nAcesso por Arouca: nº 155 - Arouca
+\nAcesso por São Pedro do Sul: nº 166 - São Pedro do Sul
+\n\nCONTACTO:
+\ndrave@escutismo.pt</string>
+  <string name="contactsText2">INSTAGRAM
+\n\nO nosso Instagram é comunitário e participativo e por isso contamos contigo.
+\nPartilha as tuas melhores fotos da Drave no teu facebook ou Instagram com a hashtag #dravescoutcentre (partilha pública para as conseguirmos encontrar!) ou envia-nos por mensagem privada numa dessas redes sociais.
+\nAs melhores serão selecionadas para fazerem parte da nossa conta oficial.
+\nHá prémios para as melhores!</string>
+
   <!-- Toolbar titles when navigation menu item is selected -->
   <string-array name="nav_item_activity_titles" translatable="false">
     <item>@string/empty</item>
